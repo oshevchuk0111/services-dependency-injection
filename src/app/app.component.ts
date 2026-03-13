@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { TasksService } from './tasks/task.service';
+import { Component, inject } from '@angular/core';
 
 import { TasksComponent } from './tasks/tasks.component';
 
